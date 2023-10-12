@@ -9,7 +9,7 @@ body {
 .standing-image{
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 1920px;
     height: 1090px;
     left: 0px;
     top: 0px;
