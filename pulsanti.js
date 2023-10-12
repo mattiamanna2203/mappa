@@ -38,6 +38,10 @@ document.onkeydown = function () {closeImage()};
 /*---------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 /*------------PULSANTI-------------*/
+
+// Refresh the page after 5 seconds
+
+sessionStorage.setItem("last_foto",1)
 // Aggiungere il pulsante 1
 document.getElementById("custom-button1").addEventListener("click", function() {
     let last = sessionStorage.getItem("last_foto")    
@@ -47,7 +51,7 @@ document.getElementById("custom-button1").addEventListener("click", function() {
     } 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/1.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/1.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button1");
@@ -66,7 +70,7 @@ document.getElementById("custom-button2").addEventListener("click", function() {
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/2.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/2.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button2");
@@ -85,7 +89,7 @@ document.getElementById("custom-button3").addEventListener("click", function() {
     } 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/3.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/3.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button3");
@@ -103,7 +107,7 @@ document.getElementById("custom-button4").addEventListener("click", function() {
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/4.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/4.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button4");
@@ -121,7 +125,7 @@ document.getElementById("custom-button5").addEventListener("click", function() {
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/5.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/5.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button5");
@@ -140,7 +144,7 @@ document.getElementById("custom-button6").addEventListener("click", function() {
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/6.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/6.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button6");
@@ -159,7 +163,7 @@ document.getElementById("custom-button7").addEventListener("click", function() {
     } 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/7.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/7.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button7");
@@ -177,7 +181,7 @@ document.getElementById("custom-button8").addEventListener("click", function() {
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/8.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/8.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button8");
@@ -195,7 +199,7 @@ document.getElementById("custom-button9").addEventListener("click", function() {
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/9.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/9.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button9");
@@ -213,7 +217,7 @@ document.getElementById("custom-button10").addEventListener("click", function() 
     } 
 
 var image = document.getElementById("image-display");
-image.src = "./foto/10.jpg"; // Replace with the path to your image
+image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/10.jpg?raw=true"; // Replace with the path to your image
 
 
 const custombotton= document.getElementById("custom-button10");
@@ -232,7 +236,7 @@ document.getElementById("custom-button11").addEventListener("click", function() 
     } 
 
 var image = document.getElementById("image-display");
-image.src = "./foto/11.jpg"; // Replace with the path to your image
+image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/11.jpg?raw=true"; // Replace with the path to your image
 
 
 const custombotton= document.getElementById("custom-button11");
@@ -251,7 +255,7 @@ let last = sessionStorage.getItem("last_foto")
     } 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/12.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/12.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button12");
@@ -269,7 +273,7 @@ let last = sessionStorage.getItem("last_foto")
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/13.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/13.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button13");
@@ -288,7 +292,7 @@ let last = sessionStorage.getItem("last_foto")
     } 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/14.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/14.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button14");
@@ -306,7 +310,7 @@ document.getElementById("custom-button15").addEventListener("click", function() 
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/15.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/15.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button15");
@@ -323,10 +327,9 @@ document.getElementById("custom-button16").addEventListener("click", function() 
         const custombottonlast= document.getElementById(`custom-button${last}`);
         custombottonlast.style.opacity = 0;
     } 
+
     var image = document.getElementById("image-display");
-    image.src = "./foto/15.jpg"; // Replace with the path to your image
-    var image = document.getElementById("image-display");
-    image.src = "./foto/16.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/16.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button16");
@@ -343,9 +346,8 @@ document.getElementById("custom-button17").addEventListener("click", function() 
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/15.jpg"; // Replace with the path to your image
-    var image = document.getElementById("image-display");
-    image.src = "./foto/17.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/17.jpg?raw=true"; // Replace with the path to your image
+
 
 
     const custombotton= document.getElementById("custom-button17");
@@ -363,10 +365,8 @@ document.getElementById("custom-button18").addEventListener("click", function() 
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/15.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/18.jpg?raw=true"; // Replace with the path to your image
 
-    var image = document.getElementById("image-display");
-    image.src = "./foto/18.jpg"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button18");
@@ -384,9 +384,8 @@ document.getElementById("custom-button19").addEventListener("click", function() 
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/15.jpg"; // Replace with the path to your image
-    var image = document.getElementById("image-display");
-    image.src = "./foto/19.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/19.jpg?raw=true"; // Replace with the path to your image
+
 
 
     const custombotton= document.getElementById("custom-button19");
@@ -404,10 +403,8 @@ document.getElementById("custom-button20").addEventListener("click", function() 
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/15.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/20.jpg?raw=true"; // Replace with the path to your image
 
-    var image = document.getElementById("image-display");
-    image.src = "./foto/20.jpg"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button20");
@@ -425,7 +422,7 @@ document.getElementById("custom-button21").addEventListener("click", function() 
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/21.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/21.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button21");
@@ -443,7 +440,7 @@ document.getElementById("custom-button22").addEventListener("click", function() 
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/22.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/22.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button22");
@@ -462,7 +459,7 @@ document.getElementById("custom-button23").addEventListener("click", function() 
     } 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/23.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/23.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button23");
@@ -481,7 +478,7 @@ document.getElementById("custom-button24").addEventListener("click", function() 
     } 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/24.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/24.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button24");
@@ -499,7 +496,7 @@ document.getElementById("custom-button25").addEventListener("click", function() 
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/25.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/25.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button25");
@@ -518,7 +515,7 @@ document.getElementById("custom-button26").addEventListener("click", function() 
     } 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/26.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/26.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button26");
@@ -536,7 +533,7 @@ document.getElementById("custom-button27").addEventListener("click", function() 
         custombottonlast.style.opacity = 0;
     } 
     var image = document.getElementById("image-display");
-    image.src = "./foto/27.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/27.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button27");
@@ -555,7 +552,7 @@ document.getElementById("custom-button28").addEventListener("click", function() 
     } 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/28.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/28.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button28");
@@ -574,7 +571,7 @@ document.getElementById("custom-button29").addEventListener("click", function() 
     } 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/29.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/29.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button29");
@@ -597,7 +594,7 @@ document.getElementById("custom-button30").addEventListener("click", function() 
 
 
     var image = document.getElementById("image-display");
-    image.src = "./foto/30.jpg"; // Replace with the path to your image
+    image.src = "https://raw.githubusercontent.com/mattiamanna2203/mappa/master/foto/30.jpg?raw=true"; // Replace with the path to your image
 
 
     const custombotton= document.getElementById("custom-button30");
@@ -605,7 +602,6 @@ document.getElementById("custom-button30").addEventListener("click", function() 
     custombotton.style.backgroundColor = "yellow";  
     sessionStorage.setItem("last_foto",30)
 });
-
 
 
 
