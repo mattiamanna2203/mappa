@@ -48,6 +48,9 @@
             </div>
     </main>
     <script>
+    setTimeout(function() {
+        location.reload();
+    }, 5000);
 //Funzione per chiudere l'immagine
 function closeImage() {
     //Rimuovere la tag dell'immagine superficiale (si elimina l'immagine)
@@ -88,6 +91,10 @@ document.onkeydown = function () {closeImage()};
 /*---------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------*/
 /*------------PULSANTI-------------*/
+
+// Refresh the page after 5 seconds
+
+sessionStorage.setItem("last_foto",1)
 // Aggiungere il pulsante 1
 document.getElementById("custom-button1").addEventListener("click", function() {
     let last = sessionStorage.getItem("last_foto")    
