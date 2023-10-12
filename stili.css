@@ -64,17 +64,179 @@ Modificando questi parametri si modificano le dimensioni dell'immagine secondari
 /*-------------------------------------------------------------------*/
 /*-------------------------------------------------------------------*/
 /*Posizione del bottone dell'immagine numero 1*/
-#custom-button1 {
-    top:1000px; 
-    left: 300px; 
+#custom-button1{
+    top: 610px; 
+    left: 200px; 
+    opacity: 0;
 }
 
+#custom-button2{
+    top: 448px; 
+    left: 61px; 
+    opacity: 0;
+}
 
+#custom-button3{
+    top: 267px; 
+    left: 170px; 
+   opacity: 0;
+}
 
+#custom-button4{
+    top: 267px; 
+    left: 184px; 
+    opacity: 0;
+}
 
+#custom-button5{
+    top: 267px; 
+    left: 198px; 
+    opacity: 0;
+}
 
+#custom-button6{
+    top: 18px; 
+    left: 110px; 
+    opacity: 0;
+}
 
+#custom-button7{
+    top: 24px; 
+    left: 182px; 
+    opacity: 0;
+}
 
+#custom-button8{
+    top: 53px; 
+    left: 192px; 
+    opacity: 0;
+}
+
+#custom-button9{
+    top: 38px; 
+    left: 178px; 
+    opacity: 0;
+}
+
+#custom-button10{
+    top: 73px; 
+    left: 202px; 
+    opacity: 0;
+}
+
+#custom-button11{
+    top: 177px; 
+    left: 255px; 
+    opacity: 0;
+}
+
+#custom-button12{
+    top: 203px; 
+    left: 289px; 
+    opacity: 0;
+}
+
+#custom-button13{
+    top: 467px; 
+    left: 321px; 
+    opacity: 0;
+}
+
+#custom-button14{
+    top: 420px; 
+    left: 281px; 
+    opacity: 0;
+}
+
+#custom-button15{
+    top: 398px; 
+    left: 260px; 
+    opacity: 0;
+}
+
+#custom-button16{
+    top: 440px; 
+    left: 257px; 
+    opacity: 0;
+}
+
+#custom-button17{
+    top: 480px; 
+    left: 262px; 
+    opacity: 0;
+}
+
+#custom-button18{
+    top: 490px; 
+    left: 218px; 
+    opacity: 0;
+}
+
+#custom-button19{
+    top: 493px; 
+    left: 185px; 
+    opacity: 0;
+}
+
+#custom-button20{
+    top: 388px; 
+    left: 175px; 
+    opacity: 0;
+}
+
+#custom-button21{
+    top: 388px; 
+    left: 190px; 
+    opacity: 0;
+}
+
+#custom-button22{
+    top: 322px; 
+    left: 286px; 
+    opacity: 0;
+}
+
+#custom-button23{
+    top: 215px; 
+    left: 247px; 
+    opacity: 0;
+}
+
+#custom-button24{
+    top: 379px; 
+    left: 468px; 
+    opacity: 0;
+}
+
+#custom-button25{
+    top: 535px; 
+    left: 326px; 
+    opacity: 0;
+}
+
+#custom-button26{
+    top: 500px; 
+    left: 290px; 
+    opacity: 0;
+}
+
+#custom-button27{
+    top: 307px; 
+    left: 295px; 
+    opacity: 0;
+}
+
+#custom-button28{
+    top: 172px; 
+    left: 312px; 
+    opacity: 0;
+}
+
+#custom-button29{
+    top: 180px; 
+    left: 291px; 
+    opacity: 0;
+}
 
 /*Posizione del bottone dell'immagine numero 30*/
 #custom-button30 {
