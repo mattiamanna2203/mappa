@@ -1,0 +1,86 @@
+/*Impostazioni sullo stile generale della pagina*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Impostazioni dell'immagine principale, modificando questi parametri si modifica la grandezza di questa immagine.*/
+.standing-image{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 1090px;
+    left: 0px;
+    top: 0px;
+}
+
+/*Impostazioni della div che contiene l'immagine secondaria
+Modificando questi parametri si modificano le dimensioni dell'immagine secondaria.
+*/
+.pop-up-image{
+    position: absolute;
+    z-index: 2;
+    width: 1700px;
+    height: 1000px;
+    left: 770px;
+    top: 0px;
+}
+
+/*Rende l'immagine secondaria delle stesse dimensioni della div che la contiene*/
+.pop-up-image img{
+    position: relative;
+}
+
+
+/*Impostazioni del bottone a X che chiude l'immagine.*/
+.close-button {
+    position: absolute;
+    cursor: pointer;
+    left: 1120px;
+    top:-10px;
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    font-size: 40px;
+    z-index: 4;
+    color: black;
+    opacity: 0;
+}
+
+/*Stile dei bottoni per richiamare le immagini secondarie*/
+.custom-button{
+    position: absolute;
+    border: none;
+    height: 1px;
+    width: 1px;
+    cursor: pointer;
+    z-index: 3;
+    border-radius: 100%;
+    height: 2px;
+    width: 1px;
+}
+
+/*-------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
+/*Posizione del bottone dell'immagine numero 1*/
+#custom-button1 {
+    top:1000px; 
+    left: 300px; 
+}
+
+
+
+
+
+
+
+
+/*Posizione del bottone dell'immagine numero 30*/
+#custom-button30 {
+    top: 379px; 
+    left: 300px; 
+    opacity: 0;
+}
+
+
