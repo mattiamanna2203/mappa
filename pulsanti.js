@@ -56,7 +56,7 @@ document.getElementById("custom-button1").addEventListener("click", function() {
 
     const custombotton= document.getElementById("custom-button1");
     custombotton.style.opacity = 1;
-    custombotton.style.backgroundColor = "yellow";  
+    custombotton.style.backgroundColor = rgb(216,172,65);  
     sessionStorage.setItem("last_foto",1)
 });
 
